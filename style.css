@@ -6,8 +6,8 @@ body {
 
 }
 .title {
- font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: #003800;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 .gams {
   background-color: #f44336;
