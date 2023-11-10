@@ -32,5 +32,16 @@
   </div>
   <h4 class="title">This is a test website, and games are going to be added frequently!</h4>
 </body>
-
+      <input type="text" name="logsarchives" id="logsarchives" autocomplete="off"  placeholder="Enter Passcode" onkeydown="redirect(this)">
+  </body>
+  <script>
+      function redirect(ele) {
+          if(event.key === 'Enter') {
+              if(ele.value === 'bigmenyes')
+                   window.location.href = "/yomom.html";
+              else
+                  alert("Invalid");
+          }
+      }
+  </script>
 </html>
