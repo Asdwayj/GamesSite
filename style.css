@@ -9,7 +9,9 @@ body {
 .input {
   text-align: center;
   color: red;
-  border-style: solid;
+  background-color: blue;
+  border-style: rounded;
+  border-radius: 25px;
   border-color: green;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
